@@ -1,0 +1,16 @@
+D:\WPF\Notepad\bin\Debug\Notepad.exe.config
+D:\WPF\Notepad\bin\Debug\Notepad.exe
+D:\WPF\Notepad\bin\Debug\Notepad.pdb
+D:\WPF\Notepad\obj\Debug\Notepad_Application.csproj.AssemblyReference.cache
+D:\WPF\Notepad\obj\Debug\MainWindow.g.cs
+D:\WPF\Notepad\obj\Debug\App.g.cs
+D:\WPF\Notepad\obj\Debug\Notepad_MarkupCompile.cache
+D:\WPF\Notepad\obj\Debug\Notepad_MarkupCompile.lref
+D:\WPF\Notepad\obj\Debug\App.baml
+D:\WPF\Notepad\obj\Debug\MainWindow.baml
+D:\WPF\Notepad\obj\Debug\Notepad.g.resources
+D:\WPF\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\WPF\Notepad\obj\Debug\Notepad_Application.csproj.GenerateResource.cache
+D:\WPF\Notepad\obj\Debug\Notepad_Application.csproj.CoreCompileInputs.cache
+D:\WPF\Notepad\obj\Debug\Notepad.exe
+D:\WPF\Notepad\obj\Debug\Notepad.pdb

@@ -1,0 +1,83 @@
+﻿<Window x:Class="Wpf_Styles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Styles"
+        xmlns:cmmds="clr-namespace:Wpf_Styles.Commands"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="{StaticResource SecondaryColor}">
+
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New"
+                        CanExecute="NewCommand_CanExecute"
+                        Executed="NewCommand_Executed">
+        </CommandBinding>
+
+        <CommandBinding x:Name="CloseCommand"
+                        Command="ApplicationCommands.Close"
+                        CanExecute="CloseCommand_CanExecute"
+                        Executed="CloseCommand_Executed">
+        </CommandBinding>
+
+        <CommandBinding x:Name="Submit"
+                        Command="local:CustomCommands.Submit"
+                        CanExecute="Submit_CanExecute"
+                        Executed="Submit_Executed">
+        </CommandBinding>
+
+        <CommandBinding x:Name="QuitCommand"
+                        Command="cmmds:Commands.Quit"
+                        CanExecute="QuitCommand_CanExecute"
+                        Executed="QuitCommand_Executed">
+        </CommandBinding>
+    </Window.CommandBindings>
+
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="Quit" Command="cmmds:Commands.Quit"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <Grid  Height="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel VerticalAlignment="Center" Grid.Column="1">
+                <TextBlock TextAlignment="Center" 
+                       FontSize="30" 
+                       FontWeight="Bold" 
+                       Margin="0,0,0,40"
+                       Foreground="{StaticResource PrimaryColor}">
+                LOGIN</TextBlock>
+
+                <TextBlock Foreground="{StaticResource PrimaryColor}">Email</TextBlock>
+                <TextBox Margin="0,5"></TextBox>
+
+                <TextBlock Foreground="{StaticResource PrimaryColor}">Password</TextBlock>
+                <TextBox Margin="0,5"></TextBox>
+
+                <Button Margin="0,20" 
+                    Style="{StaticResource PrimaryButton}"
+                    Background="{StaticResource AccentColor}" 
+                    Height="30" 
+                    Content="Submit" Command="local:CustomCommands.Submit" ></Button>
+
+                <Button Background="{StaticResource AccentColor}" 
+                    Style="{StaticResource PrimaryButton}"
+                    Height="30" 
+                    Content="Close" Command="ApplicationCommands.Close" ></Button>
+            </StackPanel>
+
+        </Grid>
+    </StackPanel>
+
+</Window>
