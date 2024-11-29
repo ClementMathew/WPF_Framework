@@ -1,0 +1,15 @@
+D:\WPF\Observable_Collection\bin\Debug\Observable_Collection.exe.config
+D:\WPF\Observable_Collection\bin\Debug\Observable_Collection.exe
+D:\WPF\Observable_Collection\bin\Debug\Observable_Collection.pdb
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.csproj.AssemblyReference.cache
+D:\WPF\Observable_Collection\obj\Debug\MainWindow.g.cs
+D:\WPF\Observable_Collection\obj\Debug\App.g.cs
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection_MarkupCompile.cache
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection_MarkupCompile.lref
+D:\WPF\Observable_Collection\obj\Debug\MainWindow.baml
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.g.resources
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.Properties.Resources.resources
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.csproj.GenerateResource.cache
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.csproj.CoreCompileInputs.cache
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.exe
+D:\WPF\Observable_Collection\obj\Debug\Observable_Collection.pdb

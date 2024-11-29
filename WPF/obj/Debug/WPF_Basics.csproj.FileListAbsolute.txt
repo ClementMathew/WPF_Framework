@@ -13,3 +13,7 @@ D:\WPF\WPF\obj\Debug\WPF_Basics.csproj.GenerateResource.cache
 D:\WPF\WPF\obj\Debug\WPF_Basics.csproj.CoreCompileInputs.cache
 D:\WPF\WPF\obj\Debug\WPF.exe
 D:\WPF\WPF\obj\Debug\WPF.pdb
+D:\WPF\WPF\obj\Debug\Pages\Page1.g.cs
+D:\WPF\WPF\obj\Debug\Pages\Page2.g.cs
+D:\WPF\WPF\obj\Debug\Pages\Page1.baml
+D:\WPF\WPF\obj\Debug\Pages\Page2.baml

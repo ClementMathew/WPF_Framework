@@ -24,5 +24,22 @@ namespace WPF
         {
             InitializeComponent();
         }
+
+        private void pageButton1_Click(object sender, RoutedEventArgs e)
+        {
+            var p1 = new Pages.Page1();
+            MyFrame.Navigate(p1);
+        }
+
+        private void pageButton2_Click(object sender, RoutedEventArgs e)
+        {
+            var p2 = new Pages.Page2();
+            MyFrame.Navigate(p2);
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.NavigationService?.GoBack();
+        }
     }
 }

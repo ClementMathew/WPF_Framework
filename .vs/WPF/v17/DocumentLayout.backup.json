@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|d:\\wpf\\observable_collection\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|solutionrelative:observable_collection\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|d:\\wpf\\observable_collection\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|solutionrelative:observable_collection\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|d:\\wpf\\observable_collection\\viewmodel\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|solutionrelative:observable_collection\\viewmodel\\mainwindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|d:\\wpf\\observable_collection\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}|Observable_Collection\\Observable_Collection.csproj|solutionrelative:observable_collection\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\WPF\\Observable_Collection\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Observable_Collection\\MainWindow.xaml",
+              "ToolTip": "D:\\WPF\\Observable_Collection\\MainWindow.xaml",
+              "RelativeToolTip": "Observable_Collection\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T08:59:20.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\WPF\\Observable_Collection\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Observable_Collection\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\WPF\\Observable_Collection\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Observable_Collection\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:02:21.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\WPF\\Observable_Collection\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Observable_Collection\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "D:\\WPF\\Observable_Collection\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "Observable_Collection\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:14:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindowModel.cs",
+              "DocumentMoniker": "D:\\WPF\\Observable_Collection\\ViewModel\\MainWindowModel.cs",
+              "RelativeDocumentMoniker": "Observable_Collection\\ViewModel\\MainWindowModel.cs",
+              "ToolTip": "D:\\WPF\\Observable_Collection\\ViewModel\\MainWindowModel.cs",
+              "RelativeToolTip": "Observable_Collection\\ViewModel\\MainWindowModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:14:30.646Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

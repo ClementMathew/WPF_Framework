@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+            <!--Pages-->
+            <Label FontWeight="Bold">-- Pages --</Label>
+            <StackPanel Orientation="Horizontal" Height="50" VerticalAlignment="Top">
+                <Button x:Name="backButton" Click="backButton_Click" Width="70" Margin="10">Back</Button>
+                <Button x:Name="pageButton1" Click="pageButton1_Click" Width="70" Margin="10">Page 1</Button>
+                <Button x:Name="pageButton2" Click="pageButton2_Click" Width="70" Margin="10">Page 2</Button>
+            </StackPanel>
+            <Frame x:Name="MyFrame" Source="Pages/Page1.xaml" Height="100" NavigationUIVisibility="Hidden"></Frame>
+
+            <!--Text Controls-->
+            <StackPanel Orientation="Horizontal" Height="50" VerticalAlignment="Top">
+                <Button x:Name="ComboBoxButton" Width="70" Margin="10" >ComboBox</Button>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
 </Window>
