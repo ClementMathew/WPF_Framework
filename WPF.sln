@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Basics", "WPF\WPF_Basics.csproj", "{976E95E1-EC86-4CAF-8F64-4BA8110AC606}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frames_and_Pages", "WPF\Frames_and_Pages.csproj", "{976E95E1-EC86-4CAF-8F64-4BA8110AC606}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Styles_and_Commands", "Wpf_Styles\WPF_Styles_and_Commands.csproj", "{5393252F-6933-4077-BB35-A2368A82DB97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad_Application", "Notepad\Notepad_Application.csproj", "{D574E602-E573-4072-ABD5-A97FA826D66F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observable_Collection", "Observable_Collection\Observable_Collection.csproj", "{9213A38E-ABB8-4E31-986E-948D6C6FCC9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{C628B8CB-626E-4760-BB48-3E7D56EBA379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
