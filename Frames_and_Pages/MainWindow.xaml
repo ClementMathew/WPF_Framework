@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Frames and Pages" Height="450" Width="800">
     
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel>
@@ -18,7 +18,7 @@
                 <Button x:Name="pageButton2" Click="pageButton2_Click" Width="70" Margin="10">Page 2</Button>
             </StackPanel>
             
-            <Frame x:Name="MyFrame" Source="Pages/Page1.xaml" Height="100" NavigationUIVisibility="Hidden"></Frame>
+            <Frame x:Name="MyFrame" Source="Pages/Page1.xaml" Height="300" NavigationUIVisibility="Hidden"></Frame>
         </StackPanel>
     </ScrollViewer>
 </Window>

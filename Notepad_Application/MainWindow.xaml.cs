@@ -146,23 +146,19 @@ namespace Notepad
 
         private void CutCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
-        private void CutCommand_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-
-        }
+        private void CutCommand_Executed(object sender, ExecutedRoutedEventArgs e) { }
 
         private void CopyCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
-        private void CopyCommand_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-
-        }
+        private void CopyCommand_Executed(object sender, ExecutedRoutedEventArgs e) { }
 
         private void PasteCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
-        private void PasteCommand_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
+        private void PasteCommand_Executed(object sender, ExecutedRoutedEventArgs e) { }
 
+        private void FullScreen_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Maximized;
         }
     }
 }

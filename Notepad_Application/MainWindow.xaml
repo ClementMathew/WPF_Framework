@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Notepad"
         mc:Ignorable="d"
-        Title="Notepad" Height="450" Width="800" >
+        Title="Notepad" Height="450" Width="800" Icon="logo.ico">
 
     <Window.CommandBindings>
         <CommandBinding x:Name="NewCommand"
@@ -55,7 +55,6 @@
                         CanExecute="PasteCommand_CanExecute"
                         Executed="PasteCommand_Executed">
         </CommandBinding>
-            
     </Window.CommandBindings>
     
     <DockPanel>
@@ -74,10 +73,7 @@
                 <MenuItem Header="Paste" Command="ApplicationCommands.Paste"></MenuItem>
             </MenuItem>
             <MenuItem Header="View">
-                <MenuItem Header="Fullscreen"></MenuItem>
-            </MenuItem>
-            <MenuItem Header="More">
-                <MenuItem Header="ChangeMode"></MenuItem>
+                <MenuItem Header="Fullscreen" Click="FullScreen_Click"></MenuItem>
             </MenuItem>
         </Menu>
         

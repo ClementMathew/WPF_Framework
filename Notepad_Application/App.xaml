@@ -7,16 +7,11 @@
     
     <Application.Resources>
         
-         <!--Brushes Light Mode-->
+         <!--Brushes-->
         <SolidColorBrush x:Key="PrimaryColorLight" Color="White"></SolidColorBrush>
         <SolidColorBrush x:Key="SecondaryColorLight" Color="#E9E7E7"></SolidColorBrush>
         <SolidColorBrush x:Key="TextColorLight" Color="Black"></SolidColorBrush>
-        
-         <!--Brushes Dark Mode-->
-        <SolidColorBrush x:Key="PrimaryColorDark" Color="#4A4A4A"></SolidColorBrush>
-        <SolidColorBrush x:Key="SecondaryColorDark" Color="#5E5E5E"></SolidColorBrush>
-        <SolidColorBrush x:Key='TextColorDark' Color="White"></SolidColorBrush>
-        
+
         <!--Font Sizes-->
         <sys:Double x:Key="FontNormal">16</sys:Double>
        
