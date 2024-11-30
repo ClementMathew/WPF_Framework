@@ -13,7 +13,7 @@
                         CanExecute="NewCommand_CanExecute"  
                         Executed="NewCommand_Executed">
         </CommandBinding>
-        
+
         <CommandBinding x:Name="OpenCommand"
                         Command="ApplicationCommands.Open"
                         CanExecute="OpenCommand_CanExecute"
@@ -56,7 +56,7 @@
                         Executed="PasteCommand_Executed">
         </CommandBinding>
     </Window.CommandBindings>
-    
+
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
@@ -76,15 +76,25 @@
                 <MenuItem Header="Fullscreen" Click="FullScreen_Click"></MenuItem>
             </MenuItem>
         </Menu>
-        
+
         <TextBox AcceptsReturn="True"
+                 DockPanel.Dock="Top"
                  BorderThickness="0"
                  TextWrapping="Wrap" 
                  AcceptsTab="True"
                  VerticalScrollBarVisibility="Auto" 
+                 MinHeight="350"
                  Padding="5"
                  Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"
                  x:Name="txtBox">
         </TextBox>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" DockPanel.Dock="Bottom">
+            <Label Content="Lines :"></Label>
+            <TextBlock Padding="0,5" Text="{Binding LineCount}"></TextBlock>
+
+            <Label Margin="10,0,0,0" Content="Words :"></Label>
+            <TextBlock Padding="0,5" Text="{Binding WordCount}"></TextBlock>
+        </StackPanel>
     </DockPanel>
 </Window>
